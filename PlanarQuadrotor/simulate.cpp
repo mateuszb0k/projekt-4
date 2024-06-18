@@ -2,6 +2,8 @@
  * SDL window creation adapted from https://github.com/isJuhn/DoublePendulum
 */
 #include "simulate.h"
+#include "time.h"
+#include <thread>
 
 Eigen::MatrixXf LQR(PlanarQuadrotor &quadrotor, float dt) {
     /* Calculate LQR gain matrix */
@@ -15,9 +17,9 @@ Eigen::MatrixXf LQR(PlanarQuadrotor &quadrotor, float dt) {
     Eigen::MatrixXf K = Eigen::MatrixXf::Zero(6, 6);
     Eigen::Vector2f input = quadrotor.GravityCompInput();
 
-    Q.diagonal() << 10, 10, 10, 1, 10, 0.25 / 2 / M_PI;
-    R.row(0) << 0.1, 0.05;
-    R.row(1) << 0.05, 0.1;
+    Q.diagonal() << 2e-3, 2e-3, 2e2, 4e-3, 2.5e-2, 2 / 2 / M_PI;
+    R.row(0) << 1e1, 7;
+    R.row(1) << 7, 1e1;
 
     std::tie(A, B) = quadrotor.Linearize();
     A_discrete = Eye + dt * A;
@@ -40,11 +42,15 @@ int main(int argc, char* args[])
 
     /**
      * TODO: Extend simulation
-     * 1. Set goal state of the mouse when clicking left mouse button (transform the coordinates to the quadrotor world! see visualizer TODO list)
+     * 1. Set goal state of the mouse when clicking left mouse button (transform the coordinates to the quadrotor world! see visualizer TODO list) //done
      *    [x, y, 0, 0, 0, 0]
      * 2. Update PlanarQuadrotor from simulation when goal is changed
     */
     Eigen::VectorXf initial_state = Eigen::VectorXf::Zero(6);
+    srand(time(NULL));
+    int init_x= rand() % SCREEN_WIDTH+1;
+    int init_y= rand() % SCREEN_HEIGHT+1;
+    initial_state << init_x, init_y, 0, 0, 0, 0;
     PlanarQuadrotor quadrotor(initial_state);
     PlanarQuadrotorVisualizer quadrotor_visualizer(&quadrotor);
     /**
@@ -53,21 +59,22 @@ int main(int argc, char* args[])
      * For implemented LQR controller, it has to be [x, y, 0, 0, 0, 0]
     */
     Eigen::VectorXf goal_state = Eigen::VectorXf::Zero(6);
-    goal_state << 0, 0, 0, 0, 0, 0;
+    goal_state<< init_x, init_y, 0, 0, 0, 0; //initial states so it doesn't move
     quadrotor.SetGoal(goal_state);
     /* Timestep for the simulation */
-    const float dt = 0.001;
+    const float dt = 0.001*5; //probably need to lower this
     Eigen::MatrixXf K = LQR(quadrotor, dt);
     Eigen::Vector2f input = Eigen::Vector2f::Zero(2);
 
     /**
      * TODO: Plot x, y, theta over time
-     * 1. Update x, y, theta history vectors to store trajectory of the quadrotor
+     * 1. Update x, y, theta history vectors to store trajectory of the quadrotor //done
      * 2. Plot trajectory using matplot++ when key 'p' is clicked
     */
-    std::vector<float> x_history;
-    std::vector<float> y_history;
-    std::vector<float> theta_history;
+   // std::vector<float> x_history;
+   // std::vector<float> y_history;   function is already implemented in planar_quadrotor.cpp
+    //std::vector<float> theta_history;
+    //float time = 0;
 
     if (init(gWindow, gRenderer, SCREEN_WIDTH, SCREEN_HEIGHT) >= 0)
     {
@@ -86,12 +93,30 @@ int main(int argc, char* args[])
                 {
                     quit = true;
                 }
+                /*
                 else if (e.type == SDL_MOUSEMOTION)
                 {
                     SDL_GetMouseState(&x, &y);
                     std::cout << "Mouse position: (" << x << ", " << y << ")" << std::endl;
                 }
-                
+                */
+                else if(e.type == SDL_MOUSEBUTTONDOWN){
+					if(e.button.button == SDL_BUTTON_LEFT){
+						SDL_GetMouseState(&x, &y);
+                        std::cout<<"goal"<<x<<" "<<y<<std::endl;
+                        if (x > 0 && x < SCREEN_WIDTH && y>0 && y < SCREEN_HEIGHT) {
+                            goal_state << x, y, 0, 0, 0, 0;
+                            quadrotor.SetGoal(goal_state);
+                        }
+
+					}
+				}
+                else if (e.type == SDL_KEYDOWN) {
+                    if (e.key.keysym.sym == SDLK_p) {
+                        std::thread t(&PlanarQuadrotor::PlotHistory, &quadrotor);
+                        t.detach();
+                    }
+                }
             }
 
             SDL_Delay((int) dt * 1000);
@@ -101,7 +126,7 @@ int main(int argc, char* args[])
 
             /* Quadrotor rendering step */
             quadrotor_visualizer.render(gRenderer);
-
+            //time += dt; handled elsewhere
             SDL_RenderPresent(gRenderer.get());
 
             /* Simulate quadrotor forward in time */

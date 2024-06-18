@@ -1,0 +1,1037 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/coding/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/3.28.3-msvc11/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/coding/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/3.28.3-msvc11/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-knjpbh"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-knjpbh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-knjpbh'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_4aa26
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_4aa26.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_4aa26.dir\\ /FS -c E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4aa26.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4aa26.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_4aa26.exe /implib:cmTC_4aa26.lib /pdb:cmTC_4aa26.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-knjpbh && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-knjpbh/cmTC_4aa26.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qucs2g"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qucs2g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qucs2g'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_3ed6a
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_3ed6a.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_3ed6a.dir\\ /FS -c E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_3ed6a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3ed6a.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_3ed6a.exe /implib:cmTC_3ed6a.lib /pdb:cmTC_3ed6a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qucs2g && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qucs2g/cmTC_3ed6a.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindBLAS.cmake:372 (check_function_exists)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindBLAS.cmake:416 (check_blas_libraries)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for sgemm_"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-x339qe"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-x339qe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/out/build/x64-Debug/CPM_modules;;E:/STUDIA/projekt-4/matplotplusplus/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-x339qe'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_c0b48
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=sgemm_ /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_c0b48.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_c0b48.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-x339qe\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c0b48.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c0b48.dir\\CheckFunctionExists.c.obj  /out:cmTC_c0b48.exe /implib:cmTC_c0b48.lib /pdb:cmTC_c0b48.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-x339qe && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-x339qe/cmTC_c0b48.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        FAILED: cmTC_c0b48.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c0b48.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c0b48.dir\\CheckFunctionExists.c.obj  /out:cmTC_c0b48.exe /implib:cmTC_c0b48.lib /pdb:cmTC_c0b48.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-x339qe && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-x339qe/cmTC_c0b48.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        LINK Pass 1: command "E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c0b48.dir\\CheckFunctionExists.c.obj /out:cmTC_c0b48.exe /implib:cmTC_c0b48.lib /pdb:cmTC_c0b48.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c0b48.dir/intermediate.manifest CMakeFiles\\cmTC_c0b48.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol sgemm_ referenced in function main\x0d
+        cmTC_c0b48.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindBLAS.cmake:468 (find_package)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3svqxb"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3svqxb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/out/build/x64-Debug/CPM_modules;;E:/STUDIA/projekt-4/matplotplusplus/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-3svqxb'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_8b809
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_8b809.dir\\src.c.obj /FdCMakeFiles\\cmTC_8b809.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3svqxb\\src.c
+        FAILED: CMakeFiles/cmTC_8b809.dir/src.c.obj 
+        E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_8b809.dir\\src.c.obj /FdCMakeFiles\\cmTC_8b809.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3svqxb\\src.c
+        E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-3svqxb\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindBLAS.cmake:468 (find_package)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tcqo6o"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tcqo6o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/out/build/x64-Debug/CPM_modules;;E:/STUDIA/projekt-4/matplotplusplus/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tcqo6o'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_52b80
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_52b80.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_52b80.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-tcqo6o\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_52b80.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_52b80.dir\\CheckFunctionExists.c.obj  /out:cmTC_52b80.exe /implib:cmTC_52b80.lib /pdb:cmTC_52b80.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-tcqo6o && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tcqo6o/cmTC_52b80.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        FAILED: cmTC_52b80.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_52b80.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_52b80.dir\\CheckFunctionExists.c.obj  /out:cmTC_52b80.exe /implib:cmTC_52b80.lib /pdb:cmTC_52b80.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-tcqo6o && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tcqo6o/cmTC_52b80.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        LINK Pass 1: command "E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_52b80.dir\\CheckFunctionExists.c.obj /out:cmTC_52b80.exe /implib:cmTC_52b80.lib /pdb:cmTC_52b80.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_52b80.dir/intermediate.manifest CMakeFiles\\cmTC_52b80.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindBLAS.cmake:468 (find_package)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7dqha9"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7dqha9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/out/build/x64-Debug/CPM_modules;;E:/STUDIA/projekt-4/matplotplusplus/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7dqha9'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_83422
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_83422.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_83422.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7dqha9\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_83422.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_83422.dir\\CheckFunctionExists.c.obj  /out:cmTC_83422.exe /implib:cmTC_83422.lib /pdb:cmTC_83422.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7dqha9 && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7dqha9/cmTC_83422.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        FAILED: cmTC_83422.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_83422.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_83422.dir\\CheckFunctionExists.c.obj  /out:cmTC_83422.exe /implib:cmTC_83422.lib /pdb:cmTC_83422.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7dqha9 && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7dqha9/cmTC_83422.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        LINK Pass 1: command "E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_83422.dir\\CheckFunctionExists.c.obj /out:cmTC_83422.exe /implib:cmTC_83422.lib /pdb:cmTC_83422.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_83422.dir/intermediate.manifest CMakeFiles\\cmTC_83422.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "matplotplusplus/cmake/FindFilesystem.cmake:157 (check_include_file_cxx)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "matplotplusplus/source/matplot/CMakeLists.txt:2 (find_package)"
+    checks:
+      - "Looking for C++ include filesystem"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hdatq4"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hdatq4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O0"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/out/build/x64-Debug/CPM_modules;;E:/STUDIA/projekt-4/matplotplusplus/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "_CXX_FILESYSTEM_HAVE_HEADER"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hdatq4'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_d6d9c
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc /O0  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_d6d9c.dir\\CheckIncludeFile.cxx.obj /FdCMakeFiles\\cmTC_d6d9c.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hdatq4\\CheckIncludeFile.cxx
+        cl : Command line warning D9002 : ignoring unknown option '/O0'
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d6d9c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d6d9c.dir\\CheckIncludeFile.cxx.obj  /out:cmTC_d6d9c.exe /implib:cmTC_d6d9c.lib /pdb:cmTC_d6d9c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hdatq4 && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hdatq4/cmTC_d6d9c.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCXXSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "matplotplusplus/cmake/FindFilesystem.cmake:120 (check_cxx_source_runs)"
+      - "matplotplusplus/cmake/FindFilesystem.cmake:210 (_cmcm_check_cxx_source)"
+      - "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "matplotplusplus/source/matplot/CMakeLists.txt:2 (find_package)"
+    checks:
+      - "Performing Test CXX_FILESYSTEM_NO_LINK_NEEDED"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dxhxoj"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dxhxoj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O0"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/out/build/x64-Debug/CPM_modules;;E:/STUDIA/projekt-4/matplotplusplus/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "CXX_FILESYSTEM_NO_LINK_NEEDED_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dxhxoj'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_d2f56
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCXX_FILESYSTEM_NO_LINK_NEEDED  /DWIN32 /D_WINDOWS /GR /EHsc /O0  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_d2f56.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_d2f56.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-dxhxoj\\src.cxx
+        cl : Command line warning D9002 : ignoring unknown option '/O0'
+        E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-dxhxoj\\src.cxx(6): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const std::filesystem::path::value_type *'
+        E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-dxhxoj\\src.cxx(6): note: consider using '%ls' in the format string
+        E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-dxhxoj\\src.cxx(6): note: consider using '%lls' in the format string
+        E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-dxhxoj\\src.cxx(6): note: consider using '%Ls' in the format string
+        E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-dxhxoj\\src.cxx(6): note: consider using '%ws' in the format string
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d2f56.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d2f56.dir\\src.cxx.obj  /out:cmTC_d2f56.exe /implib:cmTC_d2f56.lib /pdb:cmTC_d2f56.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-dxhxoj && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dxhxoj/cmTC_d2f56.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+    runResult:
+      variable: "CXX_FILESYSTEM_NO_LINK_NEEDED_EXITCODE"
+      cached: true
+      stdout: |
+        E
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "matplotplusplus/source/matplot/CMakeLists.txt:141 (check_symbol_exists)"
+    checks:
+      - "Looking for __fbufsize"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cb99jl"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cb99jl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/out/build/x64-Debug/CPM_modules;;E:/STUDIA/projekt-4/matplotplusplus/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_FBUFSIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cb99jl'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_72a5f
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_72a5f.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_72a5f.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-cb99jl\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_72a5f.dir/CheckSymbolExists.c.obj 
+        E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_72a5f.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_72a5f.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-cb99jl\\CheckSymbolExists.c
+        E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-cb99jl\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'stdio_ext.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "SDL/CMakeLists.txt:77 (check_symbol_exists)"
+    checks:
+      - "Looking for __GLIBC__"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gutl1b"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gutl1b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "LIBC_IS_GLIBC"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gutl1b'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_81dd6
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_81dd6.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_81dd6.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gutl1b\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_81dd6.dir/CheckSymbolExists.c.obj 
+        E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_81dd6.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_81dd6.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gutl1b\\CheckSymbolExists.c
+        E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gutl1b\\CheckSymbolExists.c(8): error C2065: '__GLIBC__': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:918 (check_include_file)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6t825g"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6t825g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6t825g'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_7dda6
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_7dda6.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_7dda6.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6t825g\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_7dda6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7dda6.dir\\CheckIncludeFile.c.obj  /out:cmTC_7dda6.exe /implib:cmTC_7dda6.lib /pdb:cmTC_7dda6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6t825g && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6t825g/cmTC_7dda6.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1596 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WIN32_CC"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9wwovm"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9wwovm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_WIN32_CC"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9wwovm'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_9b51f
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WIN32_CC  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_9b51f.dir\\src.c.obj /FdCMakeFiles\\cmTC_9b51f.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-9wwovm\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_9b51f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9b51f.dir\\src.c.obj  /out:cmTC_9b51f.exe /implib:cmTC_9b51f.lib /pdb:cmTC_9b51f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-9wwovm && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9wwovm/cmTC_9b51f.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1638 (check_include_file)"
+    checks:
+      - "Looking for d3d9.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ns4qln"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ns4qln"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_D3D_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ns4qln'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_fc644
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_fc644.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_fc644.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ns4qln\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_fc644.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_fc644.dir\\CheckIncludeFile.c.obj  /out:cmTC_fc644.exe /implib:cmTC_fc644.lib /pdb:cmTC_fc644.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ns4qln && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ns4qln/cmTC_fc644.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1639 (check_include_file)"
+    checks:
+      - "Looking for d3d11_1.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-94hcqm"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-94hcqm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_D3D11_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-94hcqm'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_20117
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_20117.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_20117.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-94hcqm\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_20117.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_20117.dir\\CheckIncludeFile.c.obj  /out:cmTC_20117.exe /implib:cmTC_20117.lib /pdb:cmTC_20117.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-94hcqm && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-94hcqm/cmTC_20117.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1640 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_D3D12_H"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sbb1qd"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sbb1qd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_D3D12_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sbb1qd'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_9c841
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_D3D12_H  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_9c841.dir\\src.c.obj /FdCMakeFiles\\cmTC_9c841.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sbb1qd\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_9c841.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9c841.dir\\src.c.obj  /out:cmTC_9c841.exe /implib:cmTC_9c841.lib /pdb:cmTC_9c841.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sbb1qd && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sbb1qd/cmTC_9c841.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1648 (check_include_file)"
+    checks:
+      - "Looking for ddraw.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bro0fa"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bro0fa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_DDRAW_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bro0fa'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_100ad
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_100ad.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_100ad.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bro0fa\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_100ad.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_100ad.dir\\CheckIncludeFile.c.obj  /out:cmTC_100ad.exe /implib:cmTC_100ad.lib /pdb:cmTC_100ad.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bro0fa && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bro0fa/cmTC_100ad.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1649 (check_include_file)"
+    checks:
+      - "Looking for dsound.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mab4zj"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mab4zj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_DSOUND_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mab4zj'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_81ec1
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_81ec1.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_81ec1.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-mab4zj\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_81ec1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_81ec1.dir\\CheckIncludeFile.c.obj  /out:cmTC_81ec1.exe /implib:cmTC_81ec1.lib /pdb:cmTC_81ec1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-mab4zj && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mab4zj/cmTC_81ec1.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1650 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hyewlb"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hyewlb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_DINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hyewlb'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_5a05d
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_5a05d.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_5a05d.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hyewlb\\CheckIncludeFile.c
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\um\\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_5a05d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5a05d.dir\\CheckIncludeFile.c.obj  /out:cmTC_5a05d.exe /implib:cmTC_5a05d.lib /pdb:cmTC_5a05d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hyewlb && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hyewlb/cmTC_5a05d.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1654 (check_include_file)"
+    checks:
+      - "Looking for dxgi.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lxz3wj"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lxz3wj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_DXGI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lxz3wj'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_d3b5f
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_d3b5f.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d3b5f.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lxz3wj\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d3b5f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d3b5f.dir\\CheckIncludeFile.c.obj  /out:cmTC_d3b5f.exe /implib:cmTC_d3b5f.lib /pdb:cmTC_d3b5f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lxz3wj && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lxz3wj/cmTC_d3b5f.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1668 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_H"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ytl0ri"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ytl0ri"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_XINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ytl0ri'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_40491
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_H  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_40491.dir\\src.c.obj /FdCMakeFiles\\cmTC_40491.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ytl0ri\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_40491.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_40491.dir\\src.c.obj  /out:cmTC_40491.exe /implib:cmTC_40491.lib /pdb:cmTC_40491.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ytl0ri && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ytl0ri/cmTC_40491.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1672 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_GAMEPAD_EX"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bisblw"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bisblw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_XINPUT_GAMEPAD_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bisblw'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_011c7
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_GAMEPAD_EX  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_011c7.dir\\src.c.obj /FdCMakeFiles\\cmTC_011c7.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bisblw\\src.c
+        FAILED: CMakeFiles/cmTC_011c7.dir/src.c.obj 
+        E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_GAMEPAD_EX  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_011c7.dir\\src.c.obj /FdCMakeFiles\\cmTC_011c7.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bisblw\\src.c
+        E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bisblw\\src.c(4): error C2061: syntax error: identifier 'x1'
+        E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bisblw\\src.c(4): error C2059: syntax error: ';'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1677 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_STATE_EX"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-m0xjq6"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-m0xjq6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_XINPUT_STATE_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-m0xjq6'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_8a098
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_STATE_EX  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_8a098.dir\\src.c.obj /FdCMakeFiles\\cmTC_8a098.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-m0xjq6\\src.c
+        FAILED: CMakeFiles/cmTC_8a098.dir/src.c.obj 
+        E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_XINPUT_STATE_EX  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_8a098.dir\\src.c.obj /FdCMakeFiles\\cmTC_8a098.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-m0xjq6\\src.c
+        E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-m0xjq6\\src.c(4): error C2061: syntax error: identifier 's1'
+        E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-m0xjq6\\src.c(4): error C2059: syntax error: ';'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1682 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-srrxtq"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-srrxtq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_WINDOWS_GAMING_INPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-srrxtq'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_8f8b7
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WINDOWS_GAMING_INPUT_H  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_8f8b7.dir\\src.c.obj /FdCMakeFiles\\cmTC_8f8b7.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-srrxtq\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_8f8b7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8f8b7.dir\\src.c.obj  /out:cmTC_8f8b7.exe /implib:cmTC_8f8b7.lib /pdb:cmTC_8f8b7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-srrxtq && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-srrxtq/cmTC_8f8b7.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1690 (check_include_file)"
+    checks:
+      - "Looking for tpcshrd.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mma7cw"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mma7cw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_TPCSHRD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mma7cw'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_f52e9
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_f52e9.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_f52e9.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-mma7cw\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_f52e9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f52e9.dir\\CheckIncludeFile.c.obj  /out:cmTC_f52e9.exe /implib:cmTC_f52e9.lib /pdb:cmTC_f52e9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-mma7cw && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-mma7cw/cmTC_f52e9.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1691 (check_include_file)"
+    checks:
+      - "Looking for roapi.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tc17v1"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tc17v1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_ROAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tc17v1'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_5bf51
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_5bf51.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_5bf51.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-tc17v1\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_5bf51.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5bf51.dir\\CheckIncludeFile.c.obj  /out:cmTC_5bf51.exe /implib:cmTC_5bf51.lib /pdb:cmTC_5bf51.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-tc17v1 && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tc17v1/cmTC_5bf51.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1692 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hbbl82"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hbbl82"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hbbl82'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_605e9
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_605e9.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_605e9.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hbbl82\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_605e9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_605e9.dir\\CheckIncludeFile.c.obj  /out:cmTC_605e9.exe /implib:cmTC_605e9.lib /pdb:cmTC_605e9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hbbl82 && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-hbbl82/cmTC_605e9.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1693 (check_include_file)"
+    checks:
+      - "Looking for audioclient.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-j983q6"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-j983q6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_AUDIOCLIENT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-j983q6'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_4d0ea
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_4d0ea.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_4d0ea.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-j983q6\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4d0ea.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4d0ea.dir\\CheckIncludeFile.c.obj  /out:cmTC_4d0ea.exe /implib:cmTC_4d0ea.lib /pdb:cmTC_4d0ea.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-j983q6 && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-j983q6/cmTC_4d0ea.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1694 (check_include_file)"
+    checks:
+      - "Looking for sensorsapi.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nfbld9"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nfbld9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_SENSORSAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nfbld9'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_1f50a
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_1f50a.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_1f50a.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-nfbld9\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_1f50a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1f50a.dir\\CheckIncludeFile.c.obj  /out:cmTC_1f50a.exe /implib:cmTC_1f50a.lib /pdb:cmTC_1f50a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-nfbld9 && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nfbld9/cmTC_1f50a.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/coding/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1695 (check_include_file)"
+    checks:
+      - "Looking for shellscalingapi.h"
+    directories:
+      source: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-csl5tn"
+      binary: "E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-csl5tn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/STUDIA/projekt-4/SDL/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/mateu/vcpkg"
+    buildResult:
+      variable: "HAVE_SHELLSCALINGAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-csl5tn'
+        
+        Run Build Command(s): e:\\coding\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_7cc50
+        [1/2] E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_7cc50.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_7cc50.dir\\ /FS -c E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-csl5tn\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && E:\\coding\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_7cc50.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- E:\\coding\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7cc50.dir\\CheckIncludeFile.c.obj  /out:cmTC_7cc50.exe /implib:cmTC_7cc50.lib /pdb:cmTC_7cc50.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && C:\\Windows\\system32\\cmd.exe /C "cd /D E:\\STUDIA\\projekt-4\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-csl5tn && "C:\\Program Files\\PowerShell\\7\\pwsh.exe" -noprofile -executionpolicy Bypass -file C:/Users/mateu/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary E:/STUDIA/projekt-4/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-csl5tn/cmTC_7cc50.exe -installedDir C:/Users/mateu/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+...

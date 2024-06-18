@@ -1,6 +1,6 @@
 #include <iostream>
 #include <random>
-
+#include <matplot/matplot.h>
 #include "planar_quadrotor.h"
 
 PlanarQuadrotor::PlanarQuadrotor() {
@@ -99,21 +99,43 @@ void PlanarQuadrotor::DoCalcTimeDerivatives() {
 
     z_dot.block(3, 0, 3, 1) << x_dotdot, y_dotdot, theta_dotdot;
 }
-
 void PlanarQuadrotor::DoUpdateState(float dt) {
     /* Euler integration */
     z += dt * z_dot;
 }
+void PlanarQuadrotor::PlotHistory(){
+    const auto &history = GetHistory();
+    const auto&time_history = GetTimeHistory();
+    std::vector<float> x_history;
+    std::vector<float> y_history;
+    std::vector<float> theta_history;
+    for (auto &state : history) {
+		x_history.push_back(state[0]);
+		y_history.push_back(state[1]);
+		theta_history.push_back(state[2]);
+	}
+    matplot::subplot(3, 1, 1);
+    matplot::plot(time_history, x_history,"r");
+    matplot::title("X over time");
+    matplot::subplot(3, 1, 2);
+    matplot::plot(time_history, y_history,"b");
+    matplot::title("Y over time");
+    matplot::subplot(3, 1, 3);
+    matplot::plot(time_history, theta_history,"g");
+    matplot::title("Theta over time");
+    matplot::show();
 
+}
 void PlanarQuadrotor::SetInput(Eigen::Vector2f input) {
     this->input = input;
 }
 
-Eigen::VectorXf PlanarQuadrotor::Update(Eigen::Vector2f &input, float dt) {
+Eigen::VectorXf PlanarQuadrotor::Update(Eigen::Vector2f& input, float dt) {
     SetInput(input);
     DoCalcTimeDerivatives();
     DoUpdateState(dt);
-
+    time += dt;
+    UpdateHistory();
     return z;
 }
 
