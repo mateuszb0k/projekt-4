@@ -25,6 +25,8 @@ public:
     Eigen::Vector2f GravityCompInput();
     std::tuple<Eigen::MatrixXf, Eigen::MatrixXf> Linearize();
     void SetInput(Eigen::Vector2f input);
+    //float InputValue(float u1, float u2);
+    void PlaySound(float u1, float u2);
     void DoCalcTimeDerivatives(); // Shamelessly copied from Drake API
     void DoUpdateState(float dt);
     void UpdateHistory() {

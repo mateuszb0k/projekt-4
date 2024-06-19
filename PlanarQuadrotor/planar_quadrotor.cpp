@@ -2,6 +2,9 @@
 #include <random>
 #include <matplot/matplot.h>
 #include "planar_quadrotor.h"
+#include "windows.h"
+#include <mmsystem.h>
+#pragma comment(lib, "winmm.lib")
 
 PlanarQuadrotor::PlanarQuadrotor() {
     std::random_device r;
@@ -129,7 +132,12 @@ void PlanarQuadrotor::PlotHistory(){
 void PlanarQuadrotor::SetInput(Eigen::Vector2f input) {
     this->input = input;
 }
-
+//float PlanarQuadrotor::InputValue(float u1, float u2) {
+	//return(abs(u1) + abs(u2));
+//}
+void PlanarQuadrotor::PlaySound(float u1, float u2) {
+    float input = (abs(u1) + abs(u2));
+}
 Eigen::VectorXf PlanarQuadrotor::Update(Eigen::Vector2f& input, float dt) {
     SetInput(input);
     DoCalcTimeDerivatives();
