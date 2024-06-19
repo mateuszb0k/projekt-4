@@ -17,9 +17,9 @@ Eigen::MatrixXf LQR(PlanarQuadrotor &quadrotor, float dt) {
     Eigen::MatrixXf K = Eigen::MatrixXf::Zero(6, 6);
     Eigen::Vector2f input = quadrotor.GravityCompInput();
 
-    Q.diagonal() << 2e-3, 2e-3, 2e2, 4e-3, 2.5e-2, 2 / 2 / M_PI;
-    R.row(0) << 1e1, 7;
-    R.row(1) << 7, 1e1;
+    Q.diagonal() << 0.001, 0.001, 210, 0.007, 0.005, 1 / 2 / M_PI;
+    R.row(0) << 10, 7;
+    R.row(1) << 7, 10;
 
     std::tie(A, B) = quadrotor.Linearize();
     A_discrete = Eye + dt * A;

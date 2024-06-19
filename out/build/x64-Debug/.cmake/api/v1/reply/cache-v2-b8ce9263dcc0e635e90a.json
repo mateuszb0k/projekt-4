@@ -499,10 +499,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "E:/coding/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe"
 		},
 		{
@@ -611,10 +611,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "E:/coding/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe"
 		},
 		{
@@ -1803,10 +1803,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "The CMake toolchain file"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/Users/mateu/vcpkg/scripts/buildsystems/vcpkg.cmake"
 		},
 		{

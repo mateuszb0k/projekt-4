@@ -115,13 +115,13 @@ void PlanarQuadrotor::PlotHistory(){
 		theta_history.push_back(state[2]);
 	}
     matplot::subplot(3, 1, 1);
-    matplot::plot(time_history, x_history,"r");
+    matplot::plot(time_history, x_history);
     matplot::title("X over time");
     matplot::subplot(3, 1, 2);
-    matplot::plot(time_history, y_history,"b");
+    matplot::plot(time_history, y_history);
     matplot::title("Y over time");
     matplot::subplot(3, 1, 3);
-    matplot::plot(time_history, theta_history,"g");
+    matplot::plot(time_history, theta_history);
     matplot::title("Theta over time");
     matplot::show();
 

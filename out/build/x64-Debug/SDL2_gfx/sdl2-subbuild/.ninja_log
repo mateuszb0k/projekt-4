@@ -1,21 +1,21 @@
 # ninja log v5
 2	82	7404172148591570	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-mkdir	af6e81ed2b4dd179
-2	82	7404172148591570	E:/STUDIA/projekt-4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-mkdir	af6e81ed2b4dd179
-83	5347	7404172201230496	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-download	3c2f4111db4f1914
 83	5347	7404172201230496	E:/STUDIA/projekt-4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-download	3c2f4111db4f1914
+2	82	7404172148591570	E:/STUDIA/projekt-4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-mkdir	af6e81ed2b4dd179
 5347	5422	7404172201993813	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-update	f25a478af98aeb6f
+83	5347	7404172201230496	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-download	3c2f4111db4f1914
 5347	5422	7404172201993813	E:/STUDIA/projekt-4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-update	f25a478af98aeb6f
-5423	5500	7404172202765940	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-patch	b61c44304535b0ee
 5423	5500	7404172202765940	E:/STUDIA/projekt-4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-patch	b61c44304535b0ee
+5423	5500	7404172202765940	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-patch	b61c44304535b0ee
 5500	5577	7404172203542762	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-configure	f2bfad098a10154b
 5500	5577	7404172203542762	E:/STUDIA/projekt-4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-configure	f2bfad098a10154b
 5577	5654	7404172204296180	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-build	2200e86d07403d96
 5577	5654	7404172204296180	E:/STUDIA/projekt-4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-build	2200e86d07403d96
+5808	5913	7404172206895871	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-done	a24a1eec8e023ddd
 5654	5730	7404172205059471	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-install	bcd47175339f4553
 5654	5730	7404172205059471	E:/STUDIA/projekt-4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-install	bcd47175339f4553
 5730	5808	7404172205847580	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-test	7f651b214263bb2b
 5730	5808	7404172205847580	E:/STUDIA/projekt-4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-test	7f651b214263bb2b
 5808	5913	7404172206895871	CMakeFiles/sdl2-populate-complete	a24a1eec8e023ddd
-5808	5913	7404172206895871	sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-done	a24a1eec8e023ddd
 5808	5913	7404172206895871	E:/STUDIA/projekt-4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/CMakeFiles/sdl2-populate-complete	a24a1eec8e023ddd
 5808	5913	7404172206895871	E:/STUDIA/projekt-4/out/build/x64-Debug/SDL2_gfx/sdl2-subbuild/sdl2-populate-prefix/src/sdl2-populate-stamp/sdl2-populate-done	a24a1eec8e023ddd
